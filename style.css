@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(headerimg.avif);
+    height: 65vh;
+    position: relative;
+    
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    position: relative;
+    background-color: black;
+    border-radius: 5rem;
+    opacity: 0.8;
+    width: 13vw;
+    height: 5vh;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul ul{
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+.navbar ul li:hover > ul {
+    display: block;
+}
+.headings {
+    color: white;
+    text-align: center;
+}
+
+.headings h1 {
+    padding-top: 10rem;
+    font-size: 6rem;
+}
+
+.headings h2 {
+    font-size: 4rem;
+}
