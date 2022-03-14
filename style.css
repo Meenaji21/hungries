@@ -5,9 +5,9 @@
 }
 .header {
     background-image: url(headerimg.avif);
-    height: 65vh;
+    background-repeat: repeat-x;
+    height: 60vh;
     position: relative;
-    
 }
 .navbar ul{
     list-style: none;
@@ -15,7 +15,7 @@
 .navbar ul li{
     position: relative;
     background-color: black;
-    border-radius: 5rem;
+    border-radius: 1rem;
     opacity: 0.8;
     width: 13vw;
     height: 5vh;
