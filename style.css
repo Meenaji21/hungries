@@ -64,11 +64,6 @@ h1{
     align-items: center;
     height: 25vw;
 }
-.food-items1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .first-item{
     width: 27vw;
     height: 20vw;
@@ -84,7 +79,7 @@ h1{
     width: 100%;
 }
 .checked{
-    color: rgb(197, 236, 19);
+    color: rgb(194, 233, 23);
 }
 .star{
     height: 30px;
@@ -98,4 +93,44 @@ h1{
     display: flex;
     justify-content: space-between;
     margin-left: ;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: whitesmoke;
+    height: 12vw;
+    display: flex;
+    justify-content: space-around;
+}
+.follow{
+    margin: 1.5vw;
+    width: 10vw;
+}
+.address{
+    margin: 1.5vw;
+    width: 10vw;
+}
+.follow ul{
+    list-style: none;
+}
+.follow ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* box-shadow css */
+.first-item{
+    animation: mymove 1000s infinite;
+}
+.first-item:hover{
+    animation: mymove1 10s infinite;
+}
+@keyframes mymove{
+    0% {
+        box-shadow: 1.5vw 1.5vw 1.5vw rgb(30, 153, 220);
+    }
+}
+@keyframes mymove1{
+    15%{
+        box-shadow: 1vw 1.5vw 1vw rgb(19, 116, 107);
+    }
 }
