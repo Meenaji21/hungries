@@ -6,8 +6,7 @@
 .header {
     background-image: url(headerimg.avif);
     background-repeat: repeat-x;
-    height: 60vh;
-    position: relative;
+    height: 32vw;
 }
 .navbar ul{
     list-style: none;
@@ -37,6 +36,7 @@
 .headings {
     color: white;
     text-align: center;
+    height: 20vw;
 }
 
 .headings h1 {
@@ -55,11 +55,18 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    jus
+    border: 2px solid red;
+    height: 25vw;
+}
+.food-items1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
 }
 .first-item{
     width: 27vw;
-    height: 42vh;
+    height: 20vw;
     float: left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -79,4 +86,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.top .div1{
+    border: 2px solid red;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: ;
 }
