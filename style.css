@@ -8,23 +8,26 @@
     background-repeat: repeat-x;
     height: 32vw;
 }
+.navbar{
+    height: 3vw;
+    font-size: 1.5rem;
+    background-color: black;
+    opacity: 0.8;
+    
+}
 .navbar ul{
     list-style: none;
+    display: flex;
+    justify-content: end;
 }
 .navbar ul li{
-    position: relative;
-    background-color: black;
-    border-radius: 1rem;
-    opacity: 0.8;
-    width: 13vw;
-    text-align: center;
-    line-height: 40px;
-    float: right;
+    margin: 1rem 1.5rem 0rem 1rem;
 }
 .navbar ul li a{
     text-decoration: none;
     color: white;
 }
+/* dropdown menu  */
 .navbar ul ul{
     position: absolute;
     display: none;
@@ -50,19 +53,18 @@
 /* top food items */
 h1{
     text-align: center;
+    margin-top: 1rem;
 }
 .food-items{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
     height: 25vw;
 }
 .food-items1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
 }
 .first-item{
     width: 27vw;
