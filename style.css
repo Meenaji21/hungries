@@ -12,7 +12,7 @@
     height: 3vw;
     font-size: 1.5rem;
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.6;
     
 }
 .navbar ul{
@@ -35,6 +35,9 @@
 }
 .navbar ul li:hover > ul {
     display: block;
+    background-color: rgb(3, 2, 2);
+    opacity: 2;
+    z-index: 1;
 }
 .headings {
     color: white;
