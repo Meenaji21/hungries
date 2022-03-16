@@ -47,3 +47,39 @@
 .headings h2 {
     font-size: 4rem;
 }
+/* top food items */
+h1{
+    text-align: center;
+}
+.food-items{
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    jus
+}
+.first-item{
+    border: 2px solid red;
+    width: 27vw;
+    height: 42vh;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.first-item p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.food-items img{
+    width: 100%;
+}
+.checked{
+    color: rgb(197, 236, 19);
+}
+.star{
+    border: 2px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
