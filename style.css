@@ -5,15 +5,16 @@
 }
 .header {
     background-image: url(headerimg.avif);
-    background-repeat: repeat-x;
-    height: 32vw;
+    height: 65vh;
+    position: relative;
 }
 .navbar{
-    height: 3vw;
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    height: 9vh;
     background-color: black;
     opacity: 0.6;
-    
 }
 .navbar ul{
     list-style: none;
@@ -24,6 +25,7 @@
     margin: 1rem 1.5rem 0rem 1rem;
 }
 .navbar ul li a{
+    font-size: 1.8vw;
     text-decoration: none;
     color: white;
 }
@@ -39,10 +41,10 @@
     opacity: 2;
     z-index: 1;
 }
-.headings {
+/* .headings {
     color: white;
     text-align: center;
-    height: 20vw;
+    po
 }
 
 .headings h1 {
@@ -52,9 +54,22 @@
 
 .headings h2 {
     font-size: 4rem;
+} */
+.headings {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.headings h1 {
+    font-size: 6vw;
+}
+
+.headings p {
+    font-size: 3vw;
 }
 /* top food items */
-h1{
+h2{
     text-align: center;
     margin-top: 1rem;
 }
@@ -65,15 +80,20 @@ h1{
     height: 25vw;
 }
 .first-item{
+    position: relative;
+    box-sizing: border-box;
     width: 27vw;
     height: 20vw;
     float: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 .first-item p{
-    font-size: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    height: 2vw;
     text-align: center;
+    padding-bottom: 1vw;
 }
 .food-items img{
     width: 100%;
@@ -82,13 +102,13 @@ h1{
     color: rgb(194, 233, 23);
 }
 .star{
-    height: 30px;
+    font-size: 1.5vw;
+    height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .top .div1{
-    border: 2px solid red;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -98,7 +118,6 @@ h1{
 footer{
     background-color: black;
     color: whitesmoke;
-    height: 12vw;
     display: flex;
     justify-content: space-around;
 }
