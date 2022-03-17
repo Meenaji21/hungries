@@ -5,13 +5,13 @@
 }
 .header {
     background-image: url(headerimg.avif);
-    height: 65vh;
+    height: 60vh;
     position: relative;
 }
 .navbar{
     display: flex;
     justify-content: end;
-    width: 100vw;
+    width: 98.9vw;
     height: 9vh;
     background-color: black;
     opacity: 0.6;
@@ -41,20 +41,6 @@
     opacity: 2;
     z-index: 1;
 }
-/* .headings {
-    color: white;
-    text-align: center;
-    po
-}
-
-.headings h1 {
-    padding-top: 10rem;
-    font-size: 6rem;
-}
-
-.headings h2 {
-    font-size: 4rem;
-} */
 .headings {
     color: white;
     text-align: center;
@@ -87,6 +73,11 @@ h2{
     float: left;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    box-shadow: 1.5vw 1.5vw 1.5vw rgb(30, 153, 220);
+    transition: transform 1s;
+}
+.first-item:hover{
+    transform: scale(1.05);
 }
 .first-item p{
     box-sizing: border-box;
@@ -135,21 +126,4 @@ footer{
 .follow ul li a{
     text-decoration: none;
     color: whitesmoke;
-}
-/* box-shadow css */
-.first-item{
-    animation: mymove 1000s infinite;
-}
-.first-item:hover{
-    animation: mymove1 10s infinite;
-}
-@keyframes mymove{
-    0% {
-        box-shadow: 1.5vw 1.5vw 1.5vw rgb(30, 153, 220);
-    }
-}
-@keyframes mymove1{
-    15%{
-        box-shadow: 1vw 1.5vw 1vw rgb(19, 116, 107);
-    }
 }
